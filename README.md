@@ -22,7 +22,7 @@ pip install marshmallow-sqlalchemy
  	url = http://127.0.0.1:5000/api
 
  
-			 audiobook:
+### audiobook:
 			 
 			 
 ```json
@@ -38,21 +38,23 @@ pip install marshmallow-sqlalchemy
 ```
 
 
+### song:
 
-			song:
 
-
+```json
 {"filetype" : "song",
     "data" :{
        "name" : "twilight",
      "duration" : 600
     }
 }
+```
 
 
+### podcast:
 
-		 podcast:
 
+```json
 {"filetype" : "podcast",
     "data" :{
        "name" : "pain",
@@ -60,14 +62,16 @@ pip install marshmallow-sqlalchemy
      "host" : "tedx"
     }
 }
-
+```
 
 response : 
+```json
 
 {
     "Message": "inserted.",
     "status": 200
 }
+```
 
 
 
@@ -76,9 +80,9 @@ response :
 
 
 
-				#### 2.get endpoint: 
+## 2.get endpoint: 
 
-example
+#### example
 
 
 http://127.0.0.1:5000/api/filetype/id
@@ -108,7 +112,7 @@ return details of particular id
 
 
 
-					#### 3.  put:
+## 3.  put enddpoint :
 
 
 link : http://127.0.0.1:5000/api/filetype/id
@@ -118,15 +122,14 @@ example:   http://127.0.0.1:5000/api/audiobook/200
 
 body same as create
 
-
+```json
 {
     "Message": "updated",
     "status": 200
 }
+```
 
-
-
-					#### 4.  delete:
+## 4.  delete endpopint:
 
 
 link: http://127.0.0.1:5000/api/filetype/id
@@ -137,11 +140,13 @@ link: http://127.0.0.1:5000/api/filetype/id
 
 ###### output
 
+```json
 {
         "message": "deleted"
     },
     {
         "status": 204
     }
+```
 
 

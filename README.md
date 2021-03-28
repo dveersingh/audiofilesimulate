@@ -1,6 +1,6 @@
 # audiofilesimulate
 
-			#requirments:
+#requirments:
 
 pip install flask-marshmallow
 
@@ -80,7 +80,7 @@ response :
 				2.get : 
 
 example
-http://127.0.0.1:5000/api/<filetype>/<id>
+http://127.0.0.1:5000/api/filetype/id
 	
 	
 http://127.0.0.1:5000/api/song
@@ -90,7 +90,7 @@ return all files from a particular filetype
 
 		with id :
 
-url :   http://127.0.0.1:5000/api/<filetype>/<id>
+url :   http://127.0.0.1:5000/api/filetype/id
 	
 	
 example :    http://127.0.0.1:5000/api/song/1
@@ -108,7 +108,7 @@ return details of particular id
 					3.  put:
 
 
-link : http://127.0.0.1:5000/api/<filetype>/<id>
+link : http://127.0.0.1:5000/api/filetype/id
 
 
 example:   http://127.0.0.1:5000/api/audiobook/200
@@ -126,7 +126,7 @@ body same as create
 					4.  delete:
 
 
-link: http://127.0.0.1:5000/api/<filetype>/<id>
+link: http://127.0.0.1:5000/api/filetype/id
 	
 
 example : http://127.0.0.1:5000/api/song/1

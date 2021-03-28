@@ -1,20 +1,25 @@
 # audiofilesimulate
 
-##requirments:
-
-####pip install flask-marshmallow
+## requirments:
 
 
-####pip install Flask-RESTful
+```bash
+
+pip install flask-marshmallow
 
 
-####pip install Flask
+pip install Flask-RESTful
+
+
+pip install Flask
 
         
-####pip install Flask-SQLAlchemy
+pip install Flask-SQLAlchemy
 
 
-####pip install marshmallow-sqlalchemy
+pip install marshmallow-sqlalchemy
+
+```
 
 
 

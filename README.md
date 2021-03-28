@@ -1,6 +1,6 @@
-# audiofilesimulate
+			# audiofilesimulate
 
-requirments:
+			requirments:
 
 pip install flask-marshmallow
 
@@ -10,7 +10,7 @@ pip install Flask-RESTful
 
 pip install Flask
 
-
+        
 pip install Flask-SQLAlchemy
 
 
@@ -37,7 +37,7 @@ audiobook:
      "host":"johnson"}
 }
 
-link : http://127.0.0.1:5000/api
+
 
 
 song:

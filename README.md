@@ -16,14 +16,16 @@ pip install marshmallow-sqlalchemy
 
 
 
-			### 1 . create endpoint :
+			 1 . create endpoint :
 
 
  	url = http://127.0.0.1:5000/api
 
  
-			##### audiobook:
-
+			 audiobook:
+			 
+			 
+```json
 
 {"filetype" : "audiobook",
     "data" :{
@@ -33,11 +35,11 @@ pip install marshmallow-sqlalchemy
      "duration" : 250,
      "host":"johnson"}
 }
+```
 
 
 
-
-			##### song:
+			song:
 
 
 {"filetype" : "song",
@@ -49,7 +51,7 @@ pip install marshmallow-sqlalchemy
 
 
 
-		#### podcast:
+		 podcast:
 
 {"filetype" : "podcast",
     "data" :{

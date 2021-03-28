@@ -90,8 +90,15 @@ return all files from a particular filetype
 
 		with id :
 
+url :   http://127.0.0.1:5000/api/<filetype>/<id>
+	
+	
+example :    http://127.0.0.1:5000/api/song/1
 
-http://127.0.0.1:5000/api/song/1
+
+return details of particular id 
+	
+	
 
 
 
@@ -104,7 +111,7 @@ http://127.0.0.1:5000/api/song/1
 link : http://127.0.0.1:5000/api/<filetype>/<id>
 
 
-ex. http://127.0.0.1:5000/api/audiobook/200
+example:   http://127.0.0.1:5000/api/audiobook/200
 
 body same as create
 
@@ -122,7 +129,7 @@ body same as create
 link: http://127.0.0.1:5000/api/<filetype>/<id>
 	
 
-http://127.0.0.1:5000/api/song/1
+example : http://127.0.0.1:5000/api/song/1
 
 
 output

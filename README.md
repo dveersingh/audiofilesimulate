@@ -1,6 +1,6 @@
-			# audiofilesimulate
+# audiofilesimulate
 
-			requirments:
+			#requirments:
 
 pip install flask-marshmallow
 
@@ -19,7 +19,7 @@ pip install marshmallow-sqlalchemy
 
 
 
-			1 . create:
+			#1 . create:
 
 
  	url = http://127.0.0.1:5000/api

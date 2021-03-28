@@ -16,7 +16,7 @@ pip install marshmallow-sqlalchemy
 
 
 
-			 1 . create endpoint :
+## create endpoint :
 
 
  	url = http://127.0.0.1:5000/api

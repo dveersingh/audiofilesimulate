@@ -6,17 +6,9 @@
 ```bash
 
 pip install flask-marshmallow
-
-
 pip install Flask-RESTful
-
-
-pip install Flask
-
-        
+pip install Flask  
 pip install Flask-SQLAlchemy
-
-
 pip install marshmallow-sqlalchemy
 
 ```
@@ -24,13 +16,13 @@ pip install marshmallow-sqlalchemy
 
 
 
-			#1 . create:
+			### 1 . create endpoint :
 
 
  	url = http://127.0.0.1:5000/api
 
  
-			audiobook:
+			##### audiobook:
 
 
 {"filetype" : "audiobook",
@@ -45,7 +37,7 @@ pip install marshmallow-sqlalchemy
 
 
 
-			song:
+			##### song:
 
 
 {"filetype" : "song",
@@ -57,7 +49,7 @@ pip install marshmallow-sqlalchemy
 
 
 
-		podcast:
+		#### podcast:
 
 {"filetype" : "podcast",
     "data" :{
@@ -82,18 +74,22 @@ response :
 
 
 
-				2.get : 
+				#### 2.get endpoint: 
 
 example
+
+
 http://127.0.0.1:5000/api/filetype/id
 	
 	
 http://127.0.0.1:5000/api/song
 
+
 return all files from a particular filetype
 
 
-		with id :
+		####### with id :
+		
 
 url :   http://127.0.0.1:5000/api/filetype/id
 	
@@ -110,7 +106,7 @@ return details of particular id
 
 
 
-					3.  put:
+					#### 3.  put:
 
 
 link : http://127.0.0.1:5000/api/filetype/id
@@ -128,16 +124,16 @@ body same as create
 
 
 
-					4.  delete:
+					#### 4.  delete:
 
 
 link: http://127.0.0.1:5000/api/filetype/id
 	
 
-example : http://127.0.0.1:5000/api/song/1
+###### example : http://127.0.0.1:5000/api/song/1
 
 
-output
+###### output
 
 {
         "message": "deleted"

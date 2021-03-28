@@ -22,10 +22,10 @@ pip install marshmallow-sqlalchemy
 			1 . create:
 
 
- url = http://127.0.0.1:5000/api
+ 	url = http://127.0.0.1:5000/api
 
  
-audiobook:
+			audiobook:
 
 
 {"filetype" : "audiobook",
@@ -40,7 +40,7 @@ audiobook:
 
 
 
-song:
+			song:
 
 
 {"filetype" : "song",
@@ -52,7 +52,7 @@ song:
 
 
 
-podcast:
+		podcast:
 
 {"filetype" : "podcast",
     "data" :{
@@ -81,8 +81,16 @@ response :
 
 example
 http://127.0.0.1:5000/api/<filetype>/<id>
+	
+	
 http://127.0.0.1:5000/api/song
-with id :
+
+return all files from a particular filetype
+
+
+		with id :
+
+
 http://127.0.0.1:5000/api/song/1
 
 
@@ -91,11 +99,16 @@ http://127.0.0.1:5000/api/song/1
 
 
 					3.  put:
+
+
 link : http://127.0.0.1:5000/api/<filetype>/<id>
+
 
 ex. http://127.0.0.1:5000/api/audiobook/200
 
 body same as create
+
+
 {
     "Message": "updated",
     "status": 200
@@ -104,9 +117,13 @@ body same as create
 
 
 					4.  delete:
+
+
 link: http://127.0.0.1:5000/api/<filetype>/<id>
+	
 
 http://127.0.0.1:5000/api/song/1
+
 
 output
 
